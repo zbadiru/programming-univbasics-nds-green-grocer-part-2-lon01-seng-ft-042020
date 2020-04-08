@@ -9,7 +9,8 @@ def apply_coupons(cart, coupons)
    if item_is_in_basket and count_is_big
      cart << { item: "#{item_with_coupon[:item]}"
      price: coupon[:cost] / coupon[:num],
-     clearance: item_with_coupon[:clearance]
+     clearance: item_with_coupon[:clearance],
+     
 end
 
 def apply_clearance(cart)
