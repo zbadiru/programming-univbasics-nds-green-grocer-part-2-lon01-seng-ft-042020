@@ -21,7 +21,7 @@ end
 
 def apply_clearance(cart)
   cart.map do |item|
-    
+    if item
 end
 
 def checkout(cart, coupons)
