@@ -20,7 +20,8 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
-  cart.map do |
+  cart.map do |item|
+    
 end
 
 def checkout(cart, coupons)
