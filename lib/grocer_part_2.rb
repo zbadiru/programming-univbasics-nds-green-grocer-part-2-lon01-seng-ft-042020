@@ -6,7 +6,7 @@ def apply_coupons(cart, coupons)
    item_with_coupon = find_item_by_name_in_collection(coupon[:item],cart)
    item_is_in_basket = !!item_with_coupon
    count_is_big = item_is_in_basket && item_with_coupon[:count] >= coupon[:num]
-   if item_is_in_basket 
+   if item_is_in_basket and 
 end
 
 def apply_clearance(cart)
