@@ -2,7 +2,7 @@ require_relative './part_1_solution.rb'
 
 def apply_coupons(cart, coupons)
  i = 0 
- coupons.each do |
+ coupons.each do |coupon
 end
 
 def apply_clearance(cart)
